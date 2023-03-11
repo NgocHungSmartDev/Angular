@@ -1,3 +1,3 @@
 ### Practice angular
 
-## angular lazy loading
+## Practice 1: angular lazy loading

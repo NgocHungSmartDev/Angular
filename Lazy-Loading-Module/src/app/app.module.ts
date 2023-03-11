@@ -3,17 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ArticleListComponent } from './compotents/article-list/article-list.component';
-import { ArticleDetailComponent } from './compotents/article-detail/article-detail.component';
+import { ArticleModuleModule } from './components/article-module/article-module.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ArticleListComponent,
-    ArticleDetailComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
+    ArticleModuleModule,
     AppRoutingModule
   ],
   providers: [],
